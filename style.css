@@ -21,7 +21,7 @@ p {
 
 .chenar {
   background-color: gray;
-  width: 700px;
+  max-width: 200px;
   margin: auto;
   padding: 14px;
   
