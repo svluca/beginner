@@ -21,8 +21,12 @@ p {
 
 .chenar {
   background-color: gray;
-  max-width: 200px;
+  max-width: 400px;
   margin: auto;
   padding: 14px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 8px;
   
 }
