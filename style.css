@@ -22,10 +22,6 @@ p {
   margin-bottom: 16px;
 }
 
-img { 
-  max-width: 600px;
-}
-
 .chenar {
   background-color: #faf7f4;
   max-width: 700px;
@@ -39,7 +35,9 @@ img {
 }
 
 .imag 
-{ display: flex;
+{ 
+max-width: 600px;
+display: flex;
 flex-wrap: wrap;
 gap: 12px;
 justify-content: center;
