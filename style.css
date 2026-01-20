@@ -37,6 +37,7 @@ p {
 .imag 
 { 
 max-width: 600px;
+margin: auto;
 display: flex;
 flex-wrap: wrap;
 gap: 12px;
