@@ -48,3 +48,14 @@ justify-content: center;
   max-width: 100%;
   height: auto;
 }
+a {
+  color: #c97c6d;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #a85f52;
+  text-shadow: 0 0 6px rgba(201, 124, 109, 0.4);
+}
