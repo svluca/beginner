@@ -22,9 +22,12 @@ p {
   margin-bottom: 16px;
 }
 
+img { 
+  max-width: 600px;
+
 .chenar {
   background-color: #faf7f4;
-  max-width: 600px;
+  max-width: 700px;
   margin: auto;
   padding: 14px;
   border-width: 1.5px;
@@ -33,4 +36,11 @@ p {
   border-radius: 8px;
  box-shadow: rgba(255, 220, 200, 0.35) -20px 25px 50px;
   
+}
+
+.imag 
+{ display: flex;
+flex-wrap: wrap;
+gap: 12px;
+justify-content: center;
 }
