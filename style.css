@@ -72,3 +72,17 @@ a:hover {
   color: #a85f52;
   text-shadow: 0 0 6px rgba(201, 124, 109, 0.4);
 }
+
+#secret {
+  display: none;
+}
+
+input {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
