@@ -1,3 +1,4 @@
+const secret = document.getElementById("secret");
 const question = document.getElementById("question");
 const raspunsCorect = question.dataset.answer;
 const mesajEroare = question.dataset.error;
