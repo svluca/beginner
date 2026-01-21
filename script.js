@@ -6,7 +6,7 @@ const answer = document.getElementById("answer");
 const secret = document.getElementById("secret");
 
 btn.addEventListener("click", () => {
-  if (answer.value === raspunsCorect) {
+  if (answer.value.trim().toLowerCase() === raspunsCorect) {
     question.style.display = "none";
     secret.style.display = "block";
   } else {
