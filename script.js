@@ -1,12 +1,12 @@
-const dataCorecta = "11.02.2002";
+const question = document.getElementById("question");
+const raspunsCorect = question.dataset.answer;
 
 const btn = document.getElementById("btn");
 const answer = document.getElementById("answer");
-const question = document.getElementById("question");
 const secret = document.getElementById("secret");
 
 btn.addEventListener("click", () => {
-  if (answer.value === dataCorecta) {
+  if (answer.value === raspunsCorect) {
     question.style.display = "none";
     secret.style.display = "block";
   } else {
