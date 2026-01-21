@@ -86,3 +86,8 @@ button {
   padding: 8px 16px;
   cursor: pointer;
 }
+
+#msg {
+  color: #c96;
+  margin-top: 12px;
+}
